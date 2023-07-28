@@ -5,7 +5,7 @@
 + Flexbox
 + Responsive Web Design
 + Custom Properties
-+ Pseudocode (Organized HTML/CSS With Comments)
++ Pseudocode 
 + Responsive Navbar With Javascript
 + Royalty Free Images
 + Title Icon
