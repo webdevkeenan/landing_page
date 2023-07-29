@@ -60,6 +60,24 @@ main {
     padding: 100px 0;
 }
 
+/*** Select Quote Section ****/
+
+.quote {
+    padding: 100px 0;
+}
+
+
+.call__to--action {
+    background-color: var(--clr-btn);
+    color: var(--clr-hero__secondary)
+} 
+
+/*** Select Call to Action Section ****/
+
+.call__section {
+    padding: 100px 0;
+}
+
 .footer_wrapper {
     background-color: var(--clr-hero__footer);
     padding: 50px 0; 
@@ -81,7 +99,10 @@ nav .header__item  {list-style: none;}
 
 .logo {font-size: var(--fs-hero__logo);}
 
-.btn {background-color: var(--clr-btn);}
+.btn {
+    background-color: var(--clr-btn);
+    color: var(--clr-hero__secondary);
+}
 
 
 .header__item {padding-left: 20px;}
@@ -97,6 +118,12 @@ nav , .header__item > a {
 
 .main__text > p {font-size: var(--fs-hero__secondary--text);}
 
+blockquote {margin: auto;}
+
+blockquote > p {display: block; margin: 0 auto;}
+
+blockquote > cite {display:block; text-align: right;}
+
 footer {
     color: var(--clr-main__text); 
     text-align: center;
@@ -107,9 +134,7 @@ footer  a {
     color: var(--clr-main__text)
 }
 
-footer a:visited {
-    color: blue;
-}
+footer a:visited {color: blue;}
 
 /*******************************
     
