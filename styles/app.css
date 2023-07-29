@@ -15,12 +15,13 @@ html {scroll-behavior: smooth; font-size: 12px;}
 :root {
     /*** Background Color ***/
     --clr-hero__footer: #1F2937;
+    --clr-btn: #3882F6;
     /*** Font Color ****/
     --clr-hero__secondary: #E5E7EB;
     --clr-main__text: #F9FAF8;
     /*** Font Size ***/
     --fs-main__text: 4rem; /**48px**/
-    --fs-hero__secondary--text: 18px;
+    --fs-hero__secondary--text: calc(1rem + 8px); /**18px**/
     --fs-hero__logo: 2rem; /**24px**/
     --fs-info: 3rem; /**36px**/
     /*** Font Weight ***/
@@ -38,7 +39,37 @@ html {scroll-behavior: smooth; font-size: 12px;}
 
 img {width: 100%;}
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
 
+.hero {
+    background-color: var(--clr-hero__footer);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 100px 0;
+}
+
+main {
+    padding: 100px 0;
+}
+
+
+@media (min-width: 800px) {
+    main {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .hero__img {
+        max-width: 50%;
+    }
+    
+}
 
 /******************************
 
@@ -46,8 +77,50 @@ img {width: 100%;}
 
 ******************************/
 
+.header__links {
+    display: flex;
+}
+
+nav .header__item  {
+    list-style: none;
+}
+
+.header__item > a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: var(--clr-btn);
+}
+
+.main__btn {
+    width: 50px;
+}
+
+.header__item {
+    padding-left: 20px;
+}
+
+nav , .header__item > a {
+    color: var(--clr-hero__secondary);
+    font-size: var(--fs-hero__secondary--text);
+}
+
+.main__text {color: var(--clr-hero__secondary);}
+
 .main__text > h1 {font-size: var(--fs-main__text);}
 
+.main__text > p {font-size: var(--fs-hero__secondary--text);}
+
+ @media (max-width: 1300px) {
+    .main__text h1 {
+        font-size: 3rem;
+    }
+
+    .main__text p {
+        font-size: 1.4rem;
+    }
+ }
 
 
 /*******************************
