@@ -6,6 +6,8 @@
 
 html {scroll-behavior: smooth; font-size: 12px;}
 
+a:hover {cursor: pointer;}
+
 /*****************************
 
             Custom
@@ -58,6 +60,11 @@ main {
     padding: 100px 0;
 }
 
+.footer_wrapper {
+    background-color: var(--clr-hero__footer);
+    padding: 50px 0; 
+}
+
 
 
 /******************************
@@ -66,29 +73,18 @@ main {
 
 ******************************/
 
-.header__links {
-    display: flex;
-}
+.header__links {display: flex;}
 
-nav .header__item  {
-    list-style: none;
-}
+nav .header__item  {list-style: none;}
 
-.header__item > a {
-    text-decoration: none;
-}
+.header__item > a {text-decoration: none;}
 
-.btn {
-    background-color: var(--clr-btn);
-}
+.logo {font-size: var(--fs-hero__logo);}
 
-.main__btn {
-    width: 50px;
-}
+.btn {background-color: var(--clr-btn);}
 
-.header__item {
-    padding-left: 20px;
-}
+
+.header__item {padding-left: 20px;}
 
 nav , .header__item > a {
     color: var(--clr-hero__secondary);
@@ -101,7 +97,19 @@ nav , .header__item > a {
 
 .main__text > p {font-size: var(--fs-hero__secondary--text);}
 
+footer {
+    color: var(--clr-main__text); 
+    text-align: center;
+}
 
+footer  a {
+    text-decoration: none;
+    color: var(--clr-main__text)
+}
+
+footer a:visited {
+    color: blue;
+}
 
 /*******************************
     
