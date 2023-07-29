@@ -59,17 +59,6 @@ main {
 }
 
 
-@media (min-width: 800px) {
-    main {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .hero__img {
-        max-width: 50%;
-    }
-    
-}
 
 /******************************
 
@@ -112,15 +101,6 @@ nav , .header__item > a {
 
 .main__text > p {font-size: var(--fs-hero__secondary--text);}
 
- @media (max-width: 1300px) {
-    .main__text h1 {
-        font-size: 3rem;
-    }
-
-    .main__text p {
-        font-size: 1.4rem;
-    }
- }
 
 
 /*******************************
@@ -152,3 +132,11 @@ Quote Section Background Color
 
 Quote Text 
 36px light italic #1F2937
+
+/******************************
+
+         Notes 
+
+******************************/
+
+/***** Design Mobile FIRST. Use Less Media Queries. Rely on Relative Units. ******/
