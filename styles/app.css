@@ -1,0 +1,81 @@
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {scroll-behavior: smooth; font-size: 12px;}
+
+/*****************************
+
+            Custom
+
+*****************************/
+
+:root {
+    /*** Background Color ***/
+    --clr-hero__footer: #1F2937;
+    /*** Font Color ****/
+    --clr-hero__secondary: #E5E7EB;
+    --clr-main__text: #F9FAF8;
+    /*** Font Size ***/
+    --fs-main__text: 4rem; /**48px**/
+    --fs-hero__secondary--text: 18px;
+    --fs-hero__logo: 2rem; /**24px**/
+    --fs-info: 3rem; /**36px**/
+    /*** Font Weight ***/
+    --fw-lighter: lighter;
+    /*** Font Style ***/
+    --fstyle-primary: bolder;
+    --fstyle-secondary: italic;
+}
+
+/*******************************
+
+        General
+
+*******************************/
+
+img {width: 100%;}
+
+
+
+/******************************
+
+        Typography
+
+******************************/
+
+.main__text > h1 {font-size: var(--fs-main__text);}
+
+
+
+/*******************************
+    
+     Colors and Font Styles
+
+/*******************************
+
+dark background color (hero and footer)
+#1F2937
+
+Hero Main text ("this website is awesome")
+48px extra-bold #F9FAF8
+
+Hero Secondary text, Header Link Text
+18px #E5E7EB
+
+Header Logo Text 
+24px #F9FAF8
+
+Button Color, call to action background color
+#3882F6
+
+Information Header text
+36px extra-bold #1F2937
+
+Quote Section Background Color
+#E5E7EB
+
+Quote Text 
+36px light italic #1F2937
