@@ -152,13 +152,16 @@ nav , .header__item > a {
 
 .random__info > h2 {font-size: var(--fs-info);}
 
+.quote {display: flex; 
+    justify-content: center;
+}
 
+blockquote {
+    display: flex; 
+    flex-direction: column;
+}
 
-blockquote {margin: auto; font-size: var(--fs-hero__secondary--text);}
-
-blockquote > p {display: block; margin: 0 auto;}
-
-blockquote > cite {display:block; text-align: right;}
+blockquote > cite {align-self: flex-end;}
 
 footer {
     color: var(--clr-main__text); 
