@@ -95,6 +95,7 @@ main {
     color: var(--clr-hero__secondary);
     border-radius: 10px;
     padding: 30px 40px;
+    max-width: 1000px;
 } 
 
 /*** Select Call to Action Section ****/
@@ -127,7 +128,7 @@ nav .header__item  {list-style: none;}
 .logo {font-size: var(--fs-hero__logo);}
 
 
-.header__item {padding-left: 20px;}
+.header__item:nth-child(2), .header__item:nth-child(3) {padding-left: 20px;}
 
 .header__item > a:hover {color: steelblue;}
 
@@ -144,7 +145,7 @@ nav , .header__item > a {
 }
 
 .main__text > p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding-bottom: 20px;
 }
 
@@ -154,11 +155,12 @@ nav , .header__item > a {
 
 .random__info > h2 {font-size: var(--fs-info);}
 
-.subtext__item {font-size: 1.5rem;}
+.subtext__item {font-size: 1.3rem;}
 
 .quote {
     display: flex; 
     justify-content: center;
+    font-size: 1.5rem;
 }
 
 blockquote > p {font-style: var(--fstyle-secondary);}
@@ -185,6 +187,7 @@ footer  a {
     color: var(--clr-main__text)
 }
 
+footer a:hover {color: steelblue;}
 footer a:visited {color: steelblue;}
 
 /******************************
@@ -193,27 +196,9 @@ footer a:visited {color: steelblue;}
 
 *******************************/
 
-/*** Mobile Layout ****/
-
-/* @media (max-width: 600px) {
-    .main__text h1 {font-size: 5rem;}
-    .main__text p {font-size: 1.5rem;}
-}
- */
-/*** Desktop Layout ***/
+/*** Tablet 600px ****/
 
 @media (min-width: 600px) {
-
-/*** General ***/
-
-    main {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-    }
-
-    .hero__img {width: 50%;}
-
     .subtext__container {
         display: flex;
         flex-wrap: wrap;
@@ -224,49 +209,39 @@ footer a:visited {color: steelblue;}
     .subtext__item img {
         width: 200px;
     }
-
-/*** Typography ***/
-
-    .quote {font-size: 1.5rem;}
-
-
 }
 
-@media (max-width: 1190px) {
-
-/*** General ***/
-
-    main {
-        flex-direction: column;
-        justify-content: center;
-        margin: auto;
-    }
-
-    .hero__img {width: 100%; height: auto;}
-
-
-    
-}
-
-@media (min-width: 1427px) {
-    .main__text > h1 {
-        font-size: var(--fs-main__text);
-    }
-    
-    .main__text > p {
-        font-size: var(--fs-hero__secondary--text);
-    }
-}
-
-/*** Call to Action Button Fix ****/
+/*** Call to Action - Thor Quote Fix 970px ****/
 
 @media (min-width: 970px) {
     .call__to--action {
         display: flex;
         justify-content: space-around;
-        max-width: 75%;
         margin: 0 auto;
     }
+
+    .quote {font-size: 2rem;}
+}
+
+/**** Hero Image Desktop Layout 1122px ****/
+
+@media (min-width: 1122px) {
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+}
+
+    .hero__img {width: 50%;}
+
+    .quote {font-size: 3rem;}
+}
+
+
+/*** Laptop/Desktop & Beyond 1200px ***/
+
+@media (min-width: 1200px) {
+    
 }
 
 
