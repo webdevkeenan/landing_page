@@ -152,6 +152,8 @@ nav , .header__item > a {
 
 .random__info > h2 {font-size: var(--fs-info);}
 
+.subtext__item {font-size: 1.5rem;}
+
 .quote {display: flex; 
     justify-content: center;
 }
