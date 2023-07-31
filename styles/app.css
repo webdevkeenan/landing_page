@@ -185,7 +185,7 @@ footer  a {
     color: var(--clr-main__text)
 }
 
-footer a:visited {color: blue;}
+footer a:visited {color: steelblue;}
 
 /******************************
 
