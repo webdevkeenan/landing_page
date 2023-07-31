@@ -78,14 +78,14 @@ main {
 
 .call__btn {border: 2px solid #fff;}
 
-.random__info {padding: 80px 0; text-align: center;}
+.random__info {padding: 200px 0; text-align: center;}
 .subtext__item {padding-top: 50px;}
 
 
 /*** Select Quote Section ****/
 
 .quote__wrapper {
-    padding: 100px 0;
+    padding: 200px 0;
     background-color: var(--clr-hero__secondary);
 }
 
@@ -201,7 +201,7 @@ footer a:visited {color: blue;}
         justify-content: space-between;
     }
 
-    .hero__img {width: 40%;}
+    .hero__img {width: 60%;}
 
     .subtext__container {
         display: flex;
