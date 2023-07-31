@@ -129,7 +129,7 @@ nav .header__item  {list-style: none;}
 
 .header__item {padding-left: 20px;}
 
-.header__item > a:hover {color: blue;}
+.header__item > a:hover {color: steelblue;}
 
 nav , .header__item > a {
     color: var(--clr-hero__secondary);
