@@ -139,14 +139,16 @@ nav , .header__item > a {
 .main__text {color: var(--clr-hero__secondary);}
 
 .main__text > h1 {
-    font-size: var(--fs-main__text);
+    font-size: 4rem;
     padding-bottom: 20px;
 }
 
 .main__text > p {
-    font-size: var(--fs-hero__secondary--text);
+    font-size: 1.3rem;
     padding-bottom: 20px;
 }
+
+
 
 .call__to--action p {padding-bottom: 15px;}
 
@@ -191,9 +193,18 @@ footer a:visited {color: blue;}
 
 *******************************/
 
+/*** Mobile Layout ****/
+
+/* @media (max-width: 600px) {
+    .main__text h1 {font-size: 5rem;}
+    .main__text p {font-size: 1.5rem;}
+}
+ */
 /*** Desktop Layout ***/
 
 @media (min-width: 600px) {
+
+/*** General ***/
 
     main {
         display: flex;
@@ -201,7 +212,7 @@ footer a:visited {color: blue;}
         justify-content: space-between;
     }
 
-    .hero__img {width: 60%;}
+    .hero__img {width: 50%;}
 
     .subtext__container {
         display: flex;
@@ -214,12 +225,17 @@ footer a:visited {color: blue;}
         width: 200px;
     }
 
+/*** Typography ***/
+
     .quote {font-size: 1.5rem;}
 
-   
+
 }
 
 @media (max-width: 1190px) {
+
+/*** General ***/
+
     main {
         flex-direction: column;
         justify-content: center;
@@ -227,6 +243,19 @@ footer a:visited {color: blue;}
     }
 
     .hero__img {width: 100%; height: auto;}
+
+
+    
+}
+
+@media (min-width: 1427px) {
+    .main__text > h1 {
+        font-size: var(--fs-main__text);
+    }
+    
+    .main__text > p {
+        font-size: var(--fs-hero__secondary--text);
+    }
 }
 
 /*** Call to Action Button Fix ****/
@@ -239,6 +268,9 @@ footer a:visited {color: blue;}
         margin: 0 auto;
     }
 }
+
+
+
 /*******************************
     
      Colors and Font Styles
