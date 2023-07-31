@@ -94,7 +94,7 @@ main {
     background-color: var(--clr-btn);
     color: var(--clr-hero__secondary);
     border-radius: 10px;
-    padding: 20px 40px;
+    padding: 30px 40px;
 } 
 
 /*** Select Call to Action Section ****/
@@ -154,16 +154,22 @@ nav , .header__item > a {
 
 .subtext__item {font-size: 1.5rem;}
 
-.quote {display: flex; 
+.quote {
+    display: flex; 
     justify-content: center;
 }
+
+blockquote > p {font-style: var(--fstyle-secondary);}
 
 blockquote {
     display: flex; 
     flex-direction: column;
 }
 
-blockquote > cite {align-self: flex-end;}
+blockquote > cite {
+    align-self: flex-end;
+    font-weight: bolder;
+}
 
 footer {
     color: var(--clr-main__text); 
@@ -179,6 +185,61 @@ footer  a {
 
 footer a:visited {color: blue;}
 
+/******************************
+
+        Media Queries
+
+*******************************/
+
+/*** Desktop Layout ***/
+
+@media (min-width: 600px) {
+
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .hero__img {width: 40%;}
+
+    .subtext__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .subtext__item img {
+        border-radius: 30px; 
+        width: 200px;
+    }
+
+    .quote {font-size: 1.5rem;}
+
+   
+}
+
+@media (max-width: 1190px) {
+    main {
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .hero__img {width: 100%; height: auto;}
+}
+
+/*** Call to Action Button Fix ****/
+
+@media (min-width: 970px) {
+    .call__to--action {
+        display: flex;
+        justify-content: space-around;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+}
 /*******************************
     
      Colors and Font Styles
