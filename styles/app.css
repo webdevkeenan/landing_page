@@ -38,6 +38,17 @@ html {scroll-behavior: smooth; font-size: 12px;}
 
 *******************************/
 
+/*** For Hamburger ***/
+
+.bar {
+    display: block; 
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    background-color: ghostwhite;
+}
+
 img {width: 100%;}
 
 .container {
@@ -67,6 +78,7 @@ main {
     border: none;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.7s ease;
 }
 
 .btn:hover {
@@ -117,13 +129,17 @@ main {
 
 ******************************/
 
+
 a:hover {cursor: pointer;}
 
 .header__links {display: flex;}
 
-nav .header__item  {list-style: none;}
+.header__item  {list-style: none;}
 
-.header__item > a {text-decoration: none;}
+.header__item > a {
+    transition: 0.7s ease; 
+    text-decoration: none;
+}
 
 .logo {font-size: var(--fs-hero__logo);}
 
@@ -187,7 +203,11 @@ footer  a {
     color: var(--clr-main__text)
 }
 
-footer a:hover {color: steelblue;}
+footer a:hover {
+    color: steelblue; transition: 
+    0.7s ease;
+}
+
 footer a:visited {color: steelblue;}
 
 /******************************
@@ -223,9 +243,41 @@ footer a:visited {color: steelblue;}
     .quote {font-size: 2rem;}
 }
 
+/*** Hamburger ****/
+
+@media (max-width: 1121px) {
+  
+        .header__links {
+            position: fixed;
+            left: -100%;
+            top: 70px;
+            gap: 0;
+            flex-direction: column;
+            width: 100%;
+            transition: 3.0s;
+        }
+}
+
 /**** Hero Image Desktop Layout 1122px ****/
 
 @media (min-width: 1122px) {
+
+    .hamburger {
+        display: none; 
+        cursor: pointer;}
+
+        .hamburger.active .bar:nth(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active .bar:nth(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+
+        .hamburger.active .bar:nth(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+
     main {
         display: flex;
         flex-direction: row-reverse;
@@ -234,6 +286,15 @@ footer a:visited {color: steelblue;}
 
     .hero__img {width: 50%;}
 
+    
+
+    .hamburger {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 1176px) {
     .quote {font-size: 3rem;}
 }
 
@@ -244,6 +305,12 @@ footer a:visited {color: steelblue;}
     
 }
 
+/*** Hero Secondary text fix ***/
+
+@media (min-width: 1422px) {
+    .main__text > p {font-size: var(--fs-hero__secondary--text);}
+
+}
 
 
 /*******************************
