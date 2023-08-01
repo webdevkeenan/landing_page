@@ -267,8 +267,10 @@ footer > p {
 
 @media (max-width: 1121px) {
   
+        nav {overflow: hidden;}
+
          .header__links {
-            position: absolute;
+            position: fixed;
             left: 100%;
             top: 100px;
             background-color: steelblue;
