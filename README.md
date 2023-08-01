@@ -4,6 +4,7 @@
 
 + Flexbox
 + Responsive Web Design
++ Accessibility (Screen Reader Friendly)
 + Custom Properties
 + Pseudocode 
 + Responsive Navbar With Javascript
