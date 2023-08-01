@@ -42,17 +42,11 @@ html {scroll-behavior: smooth; font-size: 12px;}
 
 .hamburger {cursor: pointer;}
 
-.hamburger.active .bar:nth(2) {
-    opacity: 0;
-}
+.hamburger.active .bar:nth(2) {opacity: 0;}
 
-.hamburger.active .bar:nth(1) {
-    transform: translateY(8px) rotate(45deg);
-}
+.hamburger.active .bar:nth(1) {transform: translateY(8px) rotate(45deg);}
 
-.hamburger.active .bar:nth(3) {
-    transform: translateY(-8px) rotate(-45deg);
-}
+.hamburger.active .bar:nth(3) {transform: translateY(-8px) rotate(-45deg);}
 
 
 .bar {
@@ -61,6 +55,7 @@ html {scroll-behavior: smooth; font-size: 12px;}
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     background-color: ghostwhite;
 }
 
@@ -163,7 +158,7 @@ a:hover {cursor: pointer;}
 .header__item:nth-child(2), 
 .header__item:nth-child(3) {padding-left: 20px;}
 
-.header__item > a:hover {color: gray;}
+.header__item > a:hover {color: blue;}
 
 nav , .header__item > a {
     color: var(--clr-hero__secondary);
@@ -266,17 +261,18 @@ footer a:visited {color: steelblue;}
   
          .header__links {
             position: fixed;
-            left: 50%;
+            left: 100%;
             top: 100px;
             background-color: steelblue;
             gap: 0;
             flex-direction: column;
             width: 100%;
-            transition: 3.0s;
+            transition: 1.0s;
         }
 
+
         .header__item {margin: 16px 0;}
-        .header__item.active {left: 0;} 
+        .header__links.active {left: 0;} 
 }
 
 /**** Hero Image Desktop Layout 1122px ****/
@@ -296,11 +292,6 @@ footer a:visited {color: steelblue;}
 
     .hero__img {width: 50%;}
 
-    
-
-    .hamburger {
-        display: none;
-    }
     
 }
 
