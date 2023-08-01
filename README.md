@@ -7,6 +7,7 @@
 + Custom Properties
 + Pseudocode 
 + Responsive Navbar With Javascript
++ Transition (Animation)
 + Royalty Free Images
 + Title Icon
 + Gitignore
