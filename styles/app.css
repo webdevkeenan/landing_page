@@ -158,7 +158,7 @@ a:hover {cursor: pointer;}
 .header__item:nth-child(2), 
 .header__item:nth-child(3) {padding-left: 20px;}
 
-.header__item > a:hover {color: blue;}
+.header__item > a:hover {color: steelblue;}
 
 nav , .header__item > a {
     color: var(--clr-hero__secondary);
@@ -283,6 +283,7 @@ footer > p {
 
         .header__item {margin: 16px 0;}
         .header__links.active {left: 0;} 
+        .header__links.active .header__item a:hover {color: blue;}
 }
 
 /**** Hero Image Desktop Layout 1122px ****/
