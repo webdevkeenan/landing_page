@@ -42,11 +42,11 @@ html {scroll-behavior: smooth; font-size: 12px;}
 
 .hamburger {cursor: pointer;}
 
-.hamburger.active .bar:nth(2) {opacity: 0;}
+.hamburger.active .bar:nth-child(2) {opacity: 0;}
 
-.hamburger.active .bar:nth(1) {transform: translateY(8px) rotate(45deg);}
+.hamburger.active .bar:nth-child(1) {transform: translateY(8px) rotate(45deg);}
 
-.hamburger.active .bar:nth(3) {transform: translateY(-8px) rotate(-45deg);}
+.hamburger.active .bar:nth-child(3) {transform: translateY(-8px) rotate(-45deg);}
 
 
 .bar {
@@ -266,7 +266,7 @@ footer a:visited {color: steelblue;}
             background-color: steelblue;
             gap: 0;
             flex-direction: column;
-            width: 100%;
+            width: 60%;
             transition: 1.0s;
         }
 
