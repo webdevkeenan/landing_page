@@ -10,3 +10,8 @@ hamburger.addEventListener("click", () => {
     headerLinks.classList.toggle("active");
 })
 
+// Release Navbar upon click
+document.querySelectorAll(".header__links").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    headerLinks.classList.remove("active");
+}))
