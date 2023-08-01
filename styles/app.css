@@ -173,7 +173,7 @@ nav , .header__item > a {
 }
 
 .main__text > p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding-bottom: 20px;
 }
 
@@ -267,7 +267,7 @@ footer > p {
 @media (max-width: 1121px) {
   
          .header__links {
-            position: fixed;
+            position: absolute;
             left: 100%;
             top: 100px;
             background-color: steelblue;
