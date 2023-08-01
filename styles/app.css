@@ -179,7 +179,10 @@ nav , .header__item > a {
 
 
 
-.call__to--action p {padding-bottom: 15px;}
+.call__to--action p {
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+}
 
 .random__info > h2 {font-size: var(--fs-info);}
 
@@ -221,6 +224,10 @@ footer a:hover {
 }
 
 footer a:visited {color: steelblue;}
+
+footer > p {
+    font-size: 1.5rem;
+}
 
 /******************************
 
@@ -296,7 +303,7 @@ footer a:visited {color: steelblue;}
 }
 
 @media (min-width: 1176px) {
-    .quote {font-size: 3rem;}
+    .quote {font-size: 2.5rem;}
 }
 
 
