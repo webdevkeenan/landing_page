@@ -3,9 +3,9 @@
 https://webdevkeenan.github.io/landing_page/
 
 ## Tools Used:
-[Visual Studio Code](https://code.visualstudio.com/)
-[Pop OS (Linux)](https://pop.system76.com/)
-[Git](https://git-scm.com/)
++ [Visual Studio Code](https://code.visualstudio.com/)
++ [Pop OS (Linux)](https://pop.system76.com/)
++ [Git](https://git-scm.com/)
 
 ## Skills Displayed: 
 
