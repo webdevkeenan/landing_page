@@ -96,7 +96,7 @@ main {
     color:#1F2937;
 }
 
-.subtext__item > img {border-radius: 30px; }
+.subtext__item > img {border-radius: 30px;}
 
 .call__btn {border: 2px solid #fff;}
 
@@ -247,7 +247,7 @@ footer > p {
     }
 
     .subtext__item img {
-        width: 200px;
+        width: 300px;
     }
 }
 
@@ -266,8 +266,6 @@ footer > p {
 /*** Hamburger ****/
 
 @media (max-width: 1121px) {
-  
-        nav {overflow: hidden;}
 
          .header__links {
             position: fixed;
