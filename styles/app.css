@@ -247,7 +247,7 @@ footer > p {
     }
 
     .subtext__item img {
-        width: 300px;
+        width: 200px;
     }
 }
 
@@ -306,20 +306,25 @@ footer > p {
 
 @media (min-width: 1176px) {
     .quote {font-size: 2.5rem;}
+
+    
 }
 
 
 /*** Laptop/Desktop & Beyond 1200px ***/
 
-@media (min-width: 1200px) {
-    
+/* @media (min-width: 1200px) {
+   
 }
-
+ */
 /*** Hero Secondary text fix ***/
 
 @media (min-width: 1422px) {
     .main__text > p {font-size: var(--fs-hero__secondary--text);}
+}
 
+@media (min-width: 1688px) {
+    .subtext__item img {width: 300px;}
 }
 
 
