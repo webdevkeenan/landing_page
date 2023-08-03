@@ -34,7 +34,7 @@ https://shadowtribute.netlify.app/
 
 ### v1.0
 ![Screenshot 2023-08-01 at 20-22-19 Landing Page](https://github.com/webdevkeenan/landing_page/assets/42125735/e51a7801-d852-45e9-bc4f-1999fc90ab90)
-### v2.0!
+### v2.0
 ![Screenshot 2023-08-03 at 00-08-58 Shadow Landing Page](https://github.com/webdevkeenan/landing_page/assets/42125735/5f7e6c3f-478a-4ec5-9df7-b087e3992671)
 
 
