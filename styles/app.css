@@ -444,6 +444,8 @@ footer > p > a:hover {font-size: 3rem;}
 
 .card {padding-top: 100px;}
 
+.card2 img:hover {border: 6px dashed steelblue;}
+
 .card img {border-radius: 30px;}
 
  .card__call {
