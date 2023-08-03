@@ -9,6 +9,7 @@ https://shadowtribute.netlify.app/
 + [Visual Studio Code](https://code.visualstudio.com/)
 + [Pop!_OS (Linux)](https://pop.system76.com/)
 + [Git](https://git-scm.com/)
++ [Font Awesome Kit](https://fontawesome.com/)
 
 ## Skills Displayed: 
 
