@@ -404,7 +404,11 @@ footer > p > a:hover {font-size: 3rem;}
     box-shadow: 4px 6px 6px black;
 }
 
-.hero__img:hover {border: 6px dashed steelblue};
+.hero__img:hover {border: 6px dashed steelblue;}
+
+.subtext__item img {border-radius: 30px;}
+
+.subtext__item img:hover {border: 4px dashed steelblue;}
 
 
 .random__info img {box-shadow: 4px 6px 6px black;}
