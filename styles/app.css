@@ -279,7 +279,7 @@ footer > p {
             height: 400px;
             transition: 1.0s;
            /*** Adjustment for Shadow Tribute ***/
-           background-image: url(/img/4_shadow/Shadow\ With\ Sun\ Glasses2.jpg);
+           background-image: url(../img/4_shadow/Shadow\ With\ Sun\ Glasses2.jpg);
            background-size: cover;
            border: 4px dashed white;
            background-color: gray;
