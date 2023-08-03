@@ -285,6 +285,7 @@ footer > p {
            background-color: gray;
            background-blend-mode: multiply;
            border-radius: 30px;
+           box-shadow: 4px 6px 6px black;
         }
 
      
