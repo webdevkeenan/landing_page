@@ -284,12 +284,14 @@ footer > p {
            border: 4px dashed white;
            background-color: gray;
            background-blend-mode: multiply;
+           border-radius: 30px;
         }
 
+     
 
         .header__item {margin: 16px 0;}
         .header__links.active {left: 0;} 
-        .header__links.active .header__item a:hover {color: steelblue;}
+        .header__links.active .header__item a:hover {color: steelblue; font-size: 2.8rem;}
 }
 
 /**** Hero Image Desktop Layout 1122px ****/
@@ -378,6 +380,9 @@ Quote Text
 
 /**** General *****/
 
+.header__item > a:hover {font-size: 3rem;}
+
+footer > p > a:hover {font-size: 3rem;}
 
 
 .gradient {
