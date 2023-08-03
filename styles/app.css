@@ -426,7 +426,9 @@ footer > p > a:hover {font-size: 3rem;}
     color: #fff;
 }
 
-.shadow__sleep {
+.card {padding-top: 100px;}
+
+ .card__call {
     background:linear-gradient(160deg, var(--clr-hero__footer), var(--clr-hero__footer), steelblue 60%, white);
 }
 
