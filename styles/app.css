@@ -428,6 +428,8 @@ footer > p > a:hover {font-size: 3rem;}
 
 .card {padding-top: 100px;}
 
+.card img {border-radius: 30px;}
+
  .card__call {
     background:linear-gradient(160deg, var(--clr-hero__footer), var(--clr-hero__footer), steelblue 60%, white);
 }
@@ -450,6 +452,8 @@ footer > p > a:hover {font-size: 3rem;}
 .logo > p {color: steelblue;}
 
 cite{font-size: 3.5rem;}
+
+.vet {color: #fff; font-size: 5rem; text-align: center;}
 
 html {
     font-family: 'Anton', sans-serif;
