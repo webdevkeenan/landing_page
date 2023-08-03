@@ -1,9 +1,9 @@
 # Landing Page
 
-+ Original
-++ https://webdevkeenan.github.io/landing_page/<br>
-+ Shadow Tribute
-++ https://shadowtribute.netlify.app/
+[Original] <br>
+https://webdevkeenan.github.io/landing_page/<br>
+[Shadow Tribute] <br>
+https://shadowtribute.netlify.app/
 
 ## Tools Used:
 + [Visual Studio Code](https://code.visualstudio.com/)
