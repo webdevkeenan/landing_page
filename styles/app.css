@@ -81,9 +81,10 @@ main {
 }
 
 .btn {
+    display: inline-block;
     background-color: var(--clr-btn);
     color: var(--clr-hero__secondary);
-    padding: 10px 50px;
+    padding: 20px 50px;
     border-radius: 12px;
     border: none;
     font-weight: bold;
@@ -263,7 +264,7 @@ footer > p {
     .quote {font-size: 2rem;}
 }
 
-/*** Hamburger ****/
+/*** Hamburger Menu Toggle ****/
 
 @media (max-width: 1121px) {
 
@@ -275,7 +276,14 @@ footer > p {
             gap: 0;
             flex-direction: column;
             width: 60%;
+            height: 400px;
             transition: 1.0s;
+           /*** Adjustment for Shadow Tribute ***/
+           background-image: url(/img/4_shadow/Shadow\ With\ Sun\ Glasses2.jpg);
+           background-size: cover;
+           border: 4px dashed white;
+           background-color: gray;
+           background-blend-mode: multiply;
         }
 
 
@@ -297,6 +305,7 @@ footer > p {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+        align-items: flex-start;
 }
 
     .hero__img {width: 50%;}
@@ -358,6 +367,89 @@ Quote Section Background Color
 Quote Text 
 36px light italic #1F2937
 
+
+
+/******************************
+
+         Shadow Tribute 
+
+******************************/
+
+
+/**** General *****/
+
+
+
+.gradient {
+    background:linear-gradient(160deg, var(--clr-hero__footer), var(--clr-hero__footer), steelblue 60%, white);
+    background-size: cover;
+}
+
+.hero__img {
+    border-radius: 30px;
+    box-shadow: 4px 6px 6px black;
+}
+
+.random__info img {box-shadow: 4px 6px 6px black;}
+
+.main__text {background: none;}
+
+.main__btn {background-color: steelblue;}
+
+/* .watermelon {
+    background: var(--clr-hero__footer); 
+    background:linear-gradient(160deg, var(--clr-hero__footer), var(--clr-hero__footer), steelblue 60%, white);
+    padding: 100px;
+
+}
+ */
+
+.watermelon {
+    background-image: url(/img/t-j-breshears-Hi86bgXS4iE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: gray;
+    background-blend-mode: multiply;
+}
+
+.quote__wrapper {
+    background: url(/img/4_shadow/IMG_20220226_0002.jpg);
+    background-position: center;
+    background-color: gray;
+    background-blend-mode: multiply;
+    color: #fff;
+}
+
+.shadow__sleep {
+    background:linear-gradient(160deg, var(--clr-hero__footer), var(--clr-hero__footer), steelblue 60%, white);
+}
+
+.call__to--action {
+    background-image: url(/img/4_shadow/Shadow_12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 200px 0;
+    box-shadow: 4px 4px 6px black;
+}
+
+
+
+/**** Typography ****/
+
+.random__info {color: #fff;}
+
+html {
+    font-family: 'Anton', sans-serif;
+}
+
+.call__to--action {font-size: 2rem;}
+
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Pacifico', cursive;
+ */
 /******************************
 
          Notes 
@@ -365,3 +457,4 @@ Quote Text
 ******************************/
 
 /***** Design Mobile FIRST. Use Less Media Queries. Rely on Relative Units. ******/
+
