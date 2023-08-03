@@ -289,7 +289,7 @@ footer > p {
 
         .header__item {margin: 16px 0;}
         .header__links.active {left: 0;} 
-        .header__links.active .header__item a:hover {color: blue;}
+        .header__links.active .header__item a:hover {color: steelblue;}
 }
 
 /**** Hero Image Desktop Layout 1122px ****/
