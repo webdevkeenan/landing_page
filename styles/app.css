@@ -431,7 +431,7 @@ footer > p > a:hover {font-size: 3rem;}
 }
 
 .quote__wrapper {
-    background: url(../img/4_shadow/IMG_20220226_0002.jpg);
+    background: url(../img/4_shadow/img_20220226_0002.jpg);
     background-position: center;
     background-color: gray;
     background-blend-mode: multiply;
@@ -447,7 +447,7 @@ footer > p > a:hover {font-size: 3rem;}
 }
 
 .call__to--action {
-    background-image: url(../img/4_shadow/Shadow_12.jpg);
+    background-image: url(../img/4_shadow/shadow_12.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: multiply;
