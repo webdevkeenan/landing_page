@@ -2,7 +2,7 @@
 
 [Original] <br>
 https://webdevkeenan.github.io/landing_page/<br>
-[Shadow Tribute] <bn>
+[Shadow Tribute] <br>
 https://shadowtribute.netlify.app/
 
 ## Tools Used:
