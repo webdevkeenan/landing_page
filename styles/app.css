@@ -73,6 +73,7 @@ img {width: 100%;}
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     padding: 50px 0 50px 0; 
 }
 
