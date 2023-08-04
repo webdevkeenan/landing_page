@@ -37,7 +37,7 @@ https://webdevkeenan.github.io/landing_page/<br>
 ### v1.0 [Odin Project Layout]
 ![Screenshot 2023-08-01 at 20-22-19 Landing Page](https://github.com/webdevkeenan/landing_page/assets/42125735/e51a7801-d852-45e9-bc4f-1999fc90ab90)
 ### v2.0
-![Screenshot 2023-08-03 at 02-00-46 Shadow Landing Page](https://github.com/webdevkeenan/landing_page/assets/42125735/c45b37e2-2530-4716-9b7c-55ee6f5576be)
+![Screenshot 2023-08-04 at 07-14-22 Shadow Tribute](https://github.com/webdevkeenan/landing_page/assets/42125735/51e18ec4-9385-469f-905f-55719d447347)
 
 
 
