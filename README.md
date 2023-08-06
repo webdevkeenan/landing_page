@@ -14,6 +14,7 @@ https://github.com/webdevkeenan/landing_page/wiki
 + [Pop!_OS (Linux)](https://pop.system76.com/)
 + [Git](https://git-scm.com/)
 + [Font Awesome Kit](https://fontawesome.com/)
++ [Color Picker](https://colorpicker.fr/)
 
 ## Skills Displayed: 
 
