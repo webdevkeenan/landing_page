@@ -40,6 +40,6 @@ https://github.com/webdevkeenan/landing_page/wiki
 + [Towfiqu Barbhuiya](https://unsplash.com/photos/q-RyWM8uYwY)
 
 ### v2.0 [Shadow Tribute]
-![Screenshot 2023-08-06 at 07-59-34 Shadow Tribute](https://github.com/webdevkeenan/landing_page/assets/42125735/64debe66-1ede-4b76-a07e-f34338d84d65)
+![Screenshot 2023-08-06 at 11-18-58 Shadow Tribute](https://github.com/webdevkeenan/landing_page/assets/42125735/f6ba080e-050a-4898-9611-69b9ab042e4a)
 
 
