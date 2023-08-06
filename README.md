@@ -1,8 +1,8 @@
 # Landing Page
 
-### Original:
+### v1.0 Original:
 https://odinshadow.netlify.app/ <br>
-### Shadow Tribute:
+### v2.0 Shadow Tribute:
 https://webdevkeenan.github.io/landing_page/
 ### Youtube Video Demo:
 https://www.youtube.com/watch?v=U_tMbUFzRac 
