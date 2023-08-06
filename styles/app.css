@@ -503,6 +503,10 @@ html {
 
 .shadow {color: #52B2BF; text-shadow: #003e61;}
 
+@media (max-width: 400px) {
+    blockquote  > p {font-size: 1.2rem;}
+}
+
 @media (max-width: 970px) {
   
 
