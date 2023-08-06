@@ -39,8 +39,6 @@ https://github.com/webdevkeenan/landing_page/wiki
 + [Oliver Fetter](https://unsplash.com/photos/G6lEvBiQM9w)
 + [Towfiqu Barbhuiya](https://unsplash.com/photos/q-RyWM8uYwY)
 
-### v1.0 [Odin Project Layout]
-![Screenshot 2023-08-01 at 20-22-19 Landing Page](https://github.com/webdevkeenan/landing_page/assets/42125735/e51a7801-d852-45e9-bc4f-1999fc90ab90)
 ### v2.0 [Shadow Tribute]
 ![Screenshot 2023-08-06 at 07-59-34 Shadow Tribute](https://github.com/webdevkeenan/landing_page/assets/42125735/64debe66-1ede-4b76-a07e-f34338d84d65)
 
