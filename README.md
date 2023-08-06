@@ -4,9 +4,9 @@
 https://odinshadow.netlify.app/ <br>
 [Shadow Tribute] <br>
 https://webdevkeenan.github.io/landing_page/<br>
-[Youtube Video Demo]
+[Youtube Video Demo] <br>
 https://www.youtube.com/watch?v=U_tMbUFzRac <br>
-[Wiki}
+[Wiki] <br>
 https://github.com/webdevkeenan/landing_page/wiki <br>
 
 ## Tools Used:
