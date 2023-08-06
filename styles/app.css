@@ -409,11 +409,17 @@ footer > p > a:hover {font-size: 3rem;}
     box-shadow: 4px 6px 6px black;
 }
 
-.hero__img:hover {border: 6px dashed steelblue;}
+.hero__img:hover {
+    border: 6px dashed steelblue;
+    transition: 0.5s ease-in;
+}
 
 .subtext__item img {border-radius: 30px;}
 
-.subtext__item img:hover {border: 4px dashed steelblue;}
+.subtext__item img:hover {
+    border: 4px dashed steelblue;
+    transition: 0.2s ease-in;
+}
 
 
 .random__info img {box-shadow: 4px 6px 6px black;}
@@ -449,7 +455,10 @@ footer > p > a:hover {font-size: 3rem;}
 
 .card {padding-top: 100px;}
 
-.card2 img:hover {border: 6px dashed steelblue;}
+.card2 img:hover {
+    border: 6px dashed steelblue;
+    transition: 0.2s ease-in;
+}
 
 .card img {border-radius: 30px;}
 
