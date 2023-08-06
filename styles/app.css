@@ -496,6 +496,12 @@ html {
 
 .shadow {color: #52B2BF; text-shadow: #003e61;}
 
+@media (max-width: 970px) {
+  
+
+.call__text, .call__btn {margin-left: 15px;}
+}
+
 @media (min-width: 1122px) {
     .shadow {color: steelblue;}
 }
