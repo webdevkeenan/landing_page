@@ -1,13 +1,13 @@
 # Landing Page
 
-[Original] <br>
+### Original
 https://odinshadow.netlify.app/ <br>
-[Shadow Tribute] <br>
-https://webdevkeenan.github.io/landing_page/<br>
-[Youtube Video Demo] <br>
-https://www.youtube.com/watch?v=U_tMbUFzRac <br>
-[Wiki] <br>
-https://github.com/webdevkeenan/landing_page/wiki <br>
+### Shadow Tribute
+https://webdevkeenan.github.io/landing_page/
+### Youtube Video Demo
+https://www.youtube.com/watch?v=U_tMbUFzRac 
+### Wiki
+https://github.com/webdevkeenan/landing_page/wiki 
 
 ## Tools Used:
 + [Visual Studio Code](https://code.visualstudio.com/)
