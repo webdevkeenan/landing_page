@@ -1,9 +1,13 @@
 # Landing Page
 
-[Original] <br>
+### v1.0 Original:
 https://odinshadow.netlify.app/ <br>
-[Shadow Tribute] <br>
-https://webdevkeenan.github.io/landing_page/<br>
+### v2.0 Shadow Tribute:
+https://webdevkeenan.github.io/landing_page/
+### Youtube Video Demo:
+https://www.youtube.com/watch?v=U_tMbUFzRac 
+### Wiki:
+https://github.com/webdevkeenan/landing_page/wiki 
 
 ## Tools Used:
 + [Visual Studio Code](https://code.visualstudio.com/)
@@ -36,8 +40,9 @@ https://webdevkeenan.github.io/landing_page/<br>
 
 ### v1.0 [Odin Project Layout]
 ![Screenshot 2023-08-01 at 20-22-19 Landing Page](https://github.com/webdevkeenan/landing_page/assets/42125735/e51a7801-d852-45e9-bc4f-1999fc90ab90)
-### v2.0
-![Screenshot 2023-08-03 at 00-49-08 Shadow Landing Page](https://github.com/webdevkeenan/landing_page/assets/42125735/e9924466-948e-481c-9dc3-a0c144aeb1c6)
+### v2.0 [Shadow Tribute]
+![Screenshot 2023-08-04 at 07-14-22 Shadow Tribute](https://github.com/webdevkeenan/landing_page/assets/42125735/51e18ec4-9385-469f-905f-55719d447347)
+
 
 
 
