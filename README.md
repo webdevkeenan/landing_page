@@ -44,4 +44,3 @@ https://github.com/webdevkeenan/landing_page/wiki
 ![Screenshot 2023-08-06 at 07-59-34 Shadow Tribute](https://github.com/webdevkeenan/landing_page/assets/42125735/64debe66-1ede-4b76-a07e-f34338d84d65)
 
 
-
