@@ -215,7 +215,7 @@ footer {
 footer :nth-of-type(1) {padding-bottom: 10px;}
 
 footer  a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: var(--clr-main__text)
 }
 
@@ -299,6 +299,9 @@ footer > p {
 
 @media (min-width: 1122px) {
 
+    .shadow {color: white;}
+
+
     .hamburger {
         display: none; 
     }
@@ -319,6 +322,7 @@ footer > p {
         justify-content: center;
         align-items: center;
     }
+
 
     
 }
@@ -479,6 +483,11 @@ html {
 
 .call__to--action {font-size: 2rem;}
 
+.shadow {color: var(--clr-hero__footer);}
+
+@media (min-width: 1122px) {
+    .shadow {color: steelblue;}
+}
 
 /* font-family: 'Anton', sans-serif;
 font-family: 'Pacifico', cursive;
