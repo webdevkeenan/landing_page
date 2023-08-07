@@ -21,7 +21,7 @@ https://github.com/webdevkeenan/landing_page/wiki
 + Flexbox
 + Responsive Web Design
 + Accessibility (Screen Reader Friendly)
-+ Custom Properties
++ CSS Variables
 + Pseudocode 
 + Responsive Navbar With Javascript
 + Transition (Animation)
