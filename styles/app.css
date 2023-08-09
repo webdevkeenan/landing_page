@@ -484,6 +484,13 @@ footer > p > a:hover {font-size: 3rem;}
 }
 
 
+.btn i {
+    color:#1F2937;
+}
+
+.call__to--action 
+{max-width: 1200px;}
+
 
 /**** Typography ****/
 
