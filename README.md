@@ -3,7 +3,7 @@
 ### v1.0 Original:
 https://odinshadow.netlify.app/ <br>
 ### v2.0 Shadow Tribute:
-https://webdevkeenan.github.io/landing_page/
+https://webdevkeenan.github.io/shadow_tribute/
 ### Youtube Video Demo:
 https://www.youtube.com/watch?v=U_tMbUFzRac 
 ### Wiki:
